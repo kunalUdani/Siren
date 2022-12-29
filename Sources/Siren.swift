@@ -84,6 +84,7 @@ public extension Siren {
             performVersionCheck()
         case .onForeground:
             addForegroundObservers()
+            performVersionCheck()
         }
 
         // Add background app state change observers.
